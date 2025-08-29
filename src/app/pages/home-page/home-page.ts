@@ -10,5 +10,5 @@ import { ArticleCardComponent } from '../../components/article-card-component/ar
 })
 export class HomePage {
 
-  exampleElements: string[] = ['a', 'b', 'c'];
+  exampleElements: string[] = ['a'];
 }

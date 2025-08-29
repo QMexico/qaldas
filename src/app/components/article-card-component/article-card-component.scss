@@ -4,4 +4,20 @@
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
+  display: flex;
+}
+
+.data {
+  display: flex;
+}
+
+.image {
+  img {
+    height: 100%;
+    border-radius: 1rem;
+  }
+}
+
+.data > * {
+  padding: 1rem;
 }
