@@ -5,8 +5,8 @@
       <app-article-component></app-article-component>
     </div>
     <div class="col-6">
-      @for (item of exampleElements; track item) {
-        <app-article-card-component> </app-article-card-component>
+      @for (article of articles; track article) {
+        <app-article-card-component [article]="article"> </app-article-card-component>
       }
     </div>
   </div>

@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ArticleComponent } from '../../components/article-component/article-component';
 import { ArticleCardComponent } from '../../components/article-card-component/article-card-component';
+import { Article } from '../../mock/articles.interface';
+import { Articles } from '../../mock/articles.mock';
 
 @Component({
   selector: 'app-home-page',
@@ -10,5 +12,5 @@ import { ArticleCardComponent } from '../../components/article-card-component/ar
 })
 export class HomePage {
 
-  exampleElements: string[] = ['a'];
+  articles: Article[] = Articles;
 }

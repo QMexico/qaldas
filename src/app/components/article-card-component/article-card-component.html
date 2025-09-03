@@ -1,12 +1,12 @@
 <div class="article-card">
   <div class="information">
-    <h2>Title</h2>
+    <h2>{{article?.name}}</h2>
     <div class="data">
       <div class="date">
-        August 3099
+        {{article?.date | date: 'dd/MM/yyyy'}}
       </div>
       <div class="classification">
-        Modelos
+        {{article?.classification}}
       </div>
       <div class="more">
         More...
