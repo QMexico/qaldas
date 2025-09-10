@@ -1,0 +1,13 @@
+
+.site-footer {
+  border-top: 1px solid rgba(56,185,81,0.12);
+  padding: 1.2rem 0 2.2rem; 
+  background: #071B36;
+}
+.footer-inner {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+}
+.site-footer nav { display: flex; flex-wrap: wrap; gap: .8rem; }
+.site-footer a { color: rgba(255,255,255,0.64); }
+.foot-note { color: rgba(255,255,255,0.64); display: flex; align-items: center; gap: .6rem; }
+.sep { opacity: .5; }
