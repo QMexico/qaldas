@@ -3,7 +3,7 @@ import { AboutPage } from './pages/about-page/about-page';
 import { ArticlePage } from './pages/article-page/article-page';
 import { HomePage } from './pages/home-page/home-page';
 import { MembersPage } from './pages/members-page/members-page';
-import { QualdasPage } from './pages/qualdas-page/qualdas-page';
+import { QaldasPage } from './pages/qaldas-page/qaldas-page';
 
 export const routes: Routes = [
   {
@@ -16,7 +16,7 @@ export const routes: Routes = [
   },
   {
     path: 'home',
-    component: QualdasPage 
+    component: QaldasPage
   },
   {
     path: 'members',
