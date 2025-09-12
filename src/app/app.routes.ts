@@ -15,21 +15,16 @@ export const routes: Routes = [
     component: ArticlePage,
   },
   {
-    path: 'home',
-    component: QaldasPage
-  },
-  {
     path: 'members',
     component: MembersPage
   },
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    component: QaldasPage
   },
   {
     path: '*',
-    redirectTo: 'home',
+    redirectTo: '',
     pathMatch: 'full'
   }
 ];
