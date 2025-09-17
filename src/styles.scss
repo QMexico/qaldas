@@ -60,6 +60,7 @@ p { color: var(--text); opacity: .95; }
   display: inline-flex; align-items: center; justify-content: center;
   padding: .2rem .6rem; border: 1px solid var(--card-border);
   border-radius: 999px; font-size: .75rem; color: var(--accent); background: rgba(56,185,81,0.06);
+  color: white;
 }
 
 .cta-group { display: flex; gap: .8rem; margin-top: 1.2rem; }
@@ -120,4 +121,15 @@ p { color: var(--text); opacity: .95; }
 .cta-inner {
   border: 1px solid var(--card-border); border-radius: 1.2rem; padding: 1.2rem;
   background: linear-gradient(180deg, rgba(56,185,81,0.12), rgba(56,185,81,0.04));
+}
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url('./assets/KyivTypeSerif-VarGX.ttf');
+}
+
+.qaldas-font {
+  font-family: 'TitleFont';
+  font-size: 2rem;
+  padding-right: 1rem;
 }
